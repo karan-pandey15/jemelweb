@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Balgin+Expanded:wght@400;700&display=swap');
+
+@media screen and (max-width: 1279px) {
+  .navbar {
+    display: none;
+  }
+}
+
+.navbaricon{ 
+  font-family: 'Balgin Expanded', sans-serif;
+  color: #CC8083;
+  font-weight: bold;
+
+}
+.topnav_fixed{
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+ul li{
+  color:#CC8083;  
+  font-family: cursive;
+
+}

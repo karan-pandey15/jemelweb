@@ -1,0 +1,59 @@
+/* Addtocart.css */
+
+.add_cart_container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff; 
+  }
+  
+  .add_cart_inner_container {
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(4, 1fr); /* Four columns on larger screens */
+    max-width: 1800px;
+  }
+  
+  /* Each item container */
+  .add_cart_main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  /* Image styling for larger screens */
+  .product-image {
+    width: 180px; /* Custom width for larger screens */
+    height: 180px; /* Custom height for larger screens */
+    object-fit: cover;
+  }
+  
+  /* Text styling */
+  .cart_heading {
+    font-family: "Balgin Expanded";
+    font-size: 1rem;
+    margin: 8px 0;
+  }
+  
+  .cart_price {
+    font-family: "Balgin Expanded";
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  /* Responsive adjustments for screens 750px or smaller */
+  @media (max-width: 750px) {
+    .add_cart_inner_container {
+      grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+      gap: 20px;
+    }
+  
+    .product-image {
+      width: 150px; /* Smaller width for small screens */
+      height: 150px; /* Smaller height for small screens */
+    }
+  }
+  

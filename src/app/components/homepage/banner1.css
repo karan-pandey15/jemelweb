@@ -1,0 +1,36 @@
+@media screen and (min-width: 751px) {
+    .firstContainer {
+      height: 100vh; /* Equivalent to h-screen */
+      background-color: #FFCDB2; /* Background color */
+      background-position: bottom center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 0 0 30px 30px; /* Rounded bottom */
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      padding-left: 150px; /* Padding for larger screens */
+    }
+  } 
+  @media screen and (max-width: 750px) {
+    .smallhero_section {
+      height: 40%; 
+    }
+    .firstContainer{
+        background-color: #FFCDB2;
+    }
+  
+    .main_footer {
+      display: none;
+    }
+  
+    .small_footer {
+      display: block;
+    }
+  
+    .input_container {
+      width: 100%;
+    }
+  }
+  
